@@ -5,7 +5,7 @@ import java.util.Random;
 /**
  * 
  * @author : hoTire
- * @comment : No Recursion, Stack Quick Sort
+ * @comment : No Recursion, Random Pivot, Stack Quick Sort
  */
 public class QStack {
 	private int MAX_NUM = 50;
