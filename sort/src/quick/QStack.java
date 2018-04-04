@@ -60,10 +60,10 @@ public class QStack {
 				a[begin] = pivot;
 				a[index] = temp; 
 				
-				push(R);				// R
-				push(begin+1);			// L
-				push(begin-1);			// R
-				push(L);				// L
+				push(R);					// R
+				push(begin+1);				// L
+				push(begin-1);				// R
+				push(L);					// L
 			}
 		}
 	}
