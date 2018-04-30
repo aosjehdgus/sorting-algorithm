@@ -16,8 +16,7 @@ public class MergeSortNoRecursion {
 	}
 	
 	public static void mergeSort(int[] arr) {
-		int[] temp = new int[arr.length+1];
-		
+		int[] temp = new int[arr.length];
 		for (int k = 1; k < arr.length; k*=2) {
 			for (int left = 0; left + k  < arr.length; left += k*2) {
 				int right = left + k;
