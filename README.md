@@ -34,7 +34,7 @@
 
 ### 문제점
 1. Recursion Stack Overflow
-퀵정렬과 마찬가지로 배열이 아주 클 경우 Recursion으로 인한 stack overflow 발생
+퀵정렬과 마찬가지로 배열이 아주 클 경우 Recursion으로 인한 stack overflow 발생 <br/>
 -> <b>No Recursion 방법 </b>
 
 2. 병합하는 단계에서 추가적인 공간이 필요하다.(N)
